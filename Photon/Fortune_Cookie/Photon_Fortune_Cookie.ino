@@ -3,8 +3,8 @@
 int led = D2;
 String TOKEN = "W0KmbwPs4qcEqPfb1FXL9m0Ke6VycZdwL6Z-DkD1y_g"; //"YOUR TOKEN";
 String TOPIC = "v2/things/"+TOKEN;
-String WIFI_SSID = "thethings.iO - HQ";
-String WIFI_PASSWORD = "ilovethethingsioTTIO007";
+String WIFI_SSID = "Wifi-ssid";
+String WIFI_PASSWORD = "Wifi-passw";
 
 void callback(char* topic, byte* payload, unsigned int length) {
     // handle message arrived
