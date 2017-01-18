@@ -51,7 +51,7 @@ void setup() {
 		Serial.println();
 		Serial.println("Application>\tStart of Loop.");
 		// Request path and body can be set at runtime or at setup.
-		request.hostname = "api.thethings.io";
+		request.hostname = "api.devices.thethings.io";
 		request.port = 80;
 		request.path = "/v2/things/YOURTOKEN";
 		addValue("Hello", "1");
